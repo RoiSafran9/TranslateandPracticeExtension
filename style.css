@@ -1,0 +1,123 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    padding: 15px;
+    background-color: #17338f; 
+}
+
+h1 {
+    color: #ffffff; 
+    text-align: center;
+}
+
+input[type="text"] {
+    width: calc(100% - 22px); 
+    padding: 10px;
+    margin: 7px 0; 
+    border: 3px solid #ccc; 
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+button#saveWord {
+    background-color: #ff6a00; 
+    color: white;
+    padding: 15px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+    width: 100%;
+    font-size: 15px;
+}
+
+button#showSavedWords {
+    background-color: #4abd0d; 
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; 
+    width: 100%;
+    font-size: 17px;
+}
+
+button#viewHistory {
+    background-color: #e03030; 
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+    font-size: 17px;
+}
+
+h2{
+    color: white;
+}
+    
+button#saveWord:hover {
+    background-color: #45a;
+}
+
+#wordsList {
+    background-color: #f9f9f9; 
+    border-radius: 5px; 
+    padding: 5px; 
+    margin: 10px auto; 
+    width: 50%; 
+    max-width: 900px; 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+    font-size: 26px;
+    text-align: center;
+}
+
+.delete-history-btn {
+    background-color: #ff4d4d; /* Light red */
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+
+.word {
+    font-weight: bold; 
+}
+
+.date {
+    color: #666; 
+    font-style: italic; 
+    font-size: 11px;
+}
+
+.delete-btn {
+    background-color: transparent;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    color: #4abd0d;
+    font-weight: bold;
+    font-size: 19px;
+    margin-left: 5px;
+}
+
+    .delete-btn:hover {
+        color: #ff0000;
+    }
+
+.practice-btn {
+    background-color: #f0f0f0;
+    color: #333;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-size: 19px;
+    margin-left: 28px;
+}
+
+    .practice-btn.practice-active {
+        background-color: #160868; 
+        color: #ffffff; 
+        border-color: #333;
+    }
+
